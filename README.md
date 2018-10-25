@@ -5,11 +5,6 @@ entering your own details, and then it can be deployed on the web to be viewed
 by others on multiple platforms and devices.
 It creates a simple yet modern and responsive design.
 
-## Sample
-
-Your resume will look something like this:      
-
-
 ## How To Use
 
 * Clone or Download this repo to your device.
