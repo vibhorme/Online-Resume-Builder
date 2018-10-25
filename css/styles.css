@@ -1,0 +1,334 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+div,
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding:0;
+  margin:0;
+  font-family: 'Didact Gothic', sans-serif;
+  color: #434343;
+}
+
+.boldText {
+    font-weight: bold;
+}
+
+.flex-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+    color: #434343;
+}
+
+/**********Header Elements Styling**********/
+
+header {
+    height: 204px;
+    width: 100%;
+}
+
+.biopic {
+    width: 25%;
+}
+
+.biopic img {
+    width: 100%;
+    height: 204px;
+}
+
+.name-role {
+    width: 75%;
+    height: 204px;
+    -webkit-print-color-adjust: exact;
+    /*background-color: #6d6d6d;*/
+    background: #232526;
+    background: -webkit-linear-gradient(to left, #232526 , #414345);
+    background: linear-gradient(to left, #232526 , #414345);
+    text-align: center;
+    color: #ffffff;
+    display: table;
+}
+
+.vertical-align {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.name-role hr {
+    width: 50%;
+}
+
+.name,
+.role {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+
+/*****************************************/
+
+/**********Aside Elements Styling**********/
+
+aside {
+    width: 25%;
+}
+
+.aside-data {
+    width: 80%;
+    margin: 15px auto;
+}
+
+.personal,
+.contact,
+.links {
+    padding-top: 10px;
+}
+
+.personal,
+.contact {
+    margin-bottom: 20px;
+}
+
+aside h3 {
+    font-size: 1em;
+}
+
+table {
+    width: 100%;
+    /*border-collapse: collapse;*/
+    margin-top: 10px;
+}
+
+th {
+    text-align: left;
+    width: 100px;
+    font-size: 1em;
+}
+
+td {
+    font-size: 1em;
+}
+
+tr {
+    /*border-bottom: 1pt solid #434343;*/
+}
+
+aside i {
+    width: 30px;
+}
+
+/*****************************************/
+
+/**********Main Elements Styling**********/
+
+main {
+    width: 75%;
+    -webkit-print-color-adjust: exact;
+    background-color: #eeeeee;
+}
+
+.main-data {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.heading {
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 2px;
+    color: #ffffff;
+    background-color: #6d6d6d;
+    padding: 2px 15px 3px 15px;
+}
+
+.profile-entry,
+.skill-entry,
+.work-entry,
+.project-entry,
+.education-entry {
+    margin: 20px 0;
+}
+
+.job-title,
+.project-title,
+.degree {
+    font-weight: bold;
+}
+
+.date,
+.location {
+    float: right;
+}
+
+.location {
+    font-style: italic;
+}
+
+.description {
+    padding: 8px 0;
+}
+
+ul {
+    margin-left: 25px;
+}
+
+li {
+    width: 50%;
+    padding-right: 40px;
+    overflow-wrap: break-word;
+}
+
+/*****************************************/
+
+/********For Fixed Aside on Scroll********/
+
+.fixed {
+    position: fixed;
+    top: 0;
+}
+
+.main-left {
+    margin-left: 25%;
+}
+
+.main-left1 {
+    margin-left: 30%;
+}
+
+.main-left2 {
+    margin-left: 35%;
+}
+
+/*****************************************/
+
+/**************Media Queries**************/
+
+/*for larger screens container will have fixed width and centered*/
+@media screen and (min-width: 1401px) {
+    .container {
+        width: 1400px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 850px) and (max-width: 1023px) {
+    .biopic,
+    aside {
+        width: 30%;
+    }
+
+    .name-role,
+    main {
+        width: 70%;
+    }
+
+    .name-role hr {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 849px) {
+    .biopic,
+    aside {
+        width: 35%;
+    }
+
+    .name-role,
+    main {
+        width: 65%;
+    }
+
+    .name-role hr {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 699px) {
+    .biopic {
+        display: none;
+    }
+
+    .name-role,
+    aside,
+    main {
+        width: 100%;
+    }
+
+    .name-role hr {
+        width: 90%;
+    }
+
+    th {
+        width: 120px;
+    }
+
+    .date,
+    .location {
+        float: none;
+    }
+
+    .date {
+        font-size: 0.7em;
+    }
+
+    .location {
+        font-size: 0.9em;
+    }
+
+    li {
+        width: 100%;
+    }
+}
+
+@media print {
+    .biopic,
+    aside {
+        width: 33%;
+    }
+
+    .name-role,
+    main {
+        width: 67%;
+    }
+
+    .name-role hr {
+        width: 70%;
+    }
+
+    .personal {
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .contact {
+        margin-bottom: 40px;
+    }
+
+    .contact {
+        margin-top: 350px;
+    }
+
+    .work-entry,
+    .project-entry,
+    .education-entry {
+        page-break-inside: avoid;
+    }
+}
+
+/*****************************************/
