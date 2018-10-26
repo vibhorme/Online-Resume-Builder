@@ -10,9 +10,9 @@
 // Header object
 // This holds your name, role and image url to be displayed in the header.
 var header = {
-    // Replace Walter White within quotes with your own name
+    // Replace Vibhor Grover within quotes with your own name
     "name": "Vibhor Grover",
-    // Replace Chemical Engineer within quotes with your own role/post.
+    // Replace Engineer within quotes with your own role/post.
     "role": "Engineer",
     // Copy and paste your image in the 'images' folder and then
     // replace 'biopic.img' with your image name.
