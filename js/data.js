@@ -28,13 +28,13 @@ var header = {
 // This holds your personal info like name, sex, dateofbirth, nationality
 // and spokenlanguages to be displayed in the sidebar.
 var personal = {
-    // Replace Walter White within quotes with your own name
+    // Replace Vibhor Grover within quotes with your own name
     "name": "Vibhor Grover",
     // Replace Male within quotes with your sex
     "sex": "Male",
-    // Replace Jan 1, 1956 within quotes with your own date of birth
+    // Replace Dec 11, 1995 within quotes with your own date of birth
     "dateofbirth": "Dec 11, 1995",
-    // Replace American within quotes with your own nationality
+    // Replace Indian within quotes with your own nationality
     "nationality": "Indian",
     // Replace English within quotes with the languages you speak
     // separated by commas. For example if you speak Arabic and Spanish
@@ -46,7 +46,7 @@ var personal = {
 // This holds your contact details like mobile, email and address
 // to be displayed in the sidebar.
 var contacts = {
-    // Replace 9213467816 within quotes with your own mobile no.
+    // Replace 12345667896 within quotes with your own mobile no.
     "mobile": "12345667896",
     // Replace heisenberg@ww.com within quotes with your own email
     "email": "heisenberg@ww.com",
@@ -58,15 +58,15 @@ var contacts = {
 // This holds your links like github, linkedin, twitter and
 // personal website to be displayed in the sidebar.
 var links = {
-    // Replace walterwhite within quotes with your github user name
+    // Replace vibhor within quotes with your github user name
     "github": "vibhorme",
     // Replace # within quotes with your github profile url.
-    // For example if your github profile url is https://github.com/walterwhite
+    // For example if your github profile url is https://github.com/vibhorme
     // then the line would look like
-    // "githubUrl": "https://github.com/walterwhite"
+    // "githubUrl": "https://github.com/vibhorme"
     // If you don't want to link then leave as it is.
     "githubUrl": "#",
-    // Replace walterwhite within quotes with your linkedin user name
+    // Replace vibhor within quotes with your linkedin user name
     "linkedin": "vibhor",
     // Replace # within quotes with your linkedin profile url.
     // Refer to github url example
@@ -108,13 +108,13 @@ var experience = {
     "jobs": [
         // Each job details are enclosed within {} brackets separated by commas
         {
-            // Replace Feb, 1979 - Jan, 1984 within quotes with your job dates
-            "date": "Feb, 1979 - Jan, 1984",
-            // Replace Co-Founder within quotes with your job title
+            // Replace 2014-2018 within quotes with your job dates
+            "date": "2014-2018",
+            // Replace developer within quotes with your job title
             "title": "developer",
-            // Replace California within quotes with your job location
+            // Replace india within quotes with your job location
             "location": "india",
-            // Replace Gray Matter Technology within quotes with your job company
+            // Replace sample within quotes with your job company
             "company": "sample",
             // Replace the content within the quotes with your job description
             "description": "Lorem ipsum dolor sit amet, pro ut eirmod fabellas, has ea aliquam disputationi moderatius quaerendum per. No periculis democritum concludaturque pri, et sonet moderatius quaerendum per, eum ea mollis albucius mnesarchum. Cu splendide voluptatum sed. Cu duo persius assueverit, ut sit elit persius euismod."
@@ -126,11 +126,11 @@ var experience = {
         {
             // Replace Jun, 1990 - Dec, 2009 within quotes with your job dates
             "date": "Jun, 1990 - Dec, 2009",
-            // Replace Chemistry Teacher within quotes with your job title
+            // Replace entrepreneur within quotes with your job title
             "title": "entrepreneur",
             // Replace Albuquerque within quotes with your job location
             "location": "Albuquerque",
-            // Replace JP Wynne High School within quotes with your job company
+            // Replace sample within quotes with your job company
             "company": "sample",
             // Replace the content within the quotes with your job description
             "description": "Lorem ipsum dolor sit amet, pro ut eirmod fabellas, has ea aliquam disputationi moderatius quaerendum per. No periculis democritum concludaturque pri, et sonet moderatius quaerendum per, eum ea mollis albucius mnesarchum. Cu splendide voluptatum sed. Cu duo persius assueverit, ut sit elit persius euismod."
@@ -152,7 +152,7 @@ var projects = {
             // Replace November, 1981 within quotes with your project dates
             "date": "November, 1981",
             // Replace Proton Radiography within quotes with your project title
-            "title": "apllications",
+            "title": "aplications",
             // Replace the content within the quotes with your project description
             "description": "Lorem ipsum dolor sit amet, pro ut eirmod fabellas, has ea aliquam disputationi moderatius quaerendum per. No periculis democritum concludaturque pri, et sonet moderatius quaerendum per, eum ea mollis albucius mnesarchum. Cu splendide voluptatum sed. Cu duo persius assueverit, ut sit elit persius euismod."
         },
@@ -182,12 +182,12 @@ var education = {
     "schools": [
         // Each school/college details are enclosed within {} brackets separated by commas
         {
-            // Replace Aug, 1974 - Jun, 1978 within quotes with your school/college dates
+            // Replace 2014-2018 within quotes with your school/college dates
             "date": "2014-2018",
-            // Replace Chemical Engineering and Applied Sciences within quotes with your
+            // Replace Bachelors Of Technology within quotes with your
             // degree/major/class/grade
             "degree": "Bachelors Of Technology",
-            // Replace California Institute of Technology within quotes with your school/college
+            // Replace Srm University within quotes with your school/college
             "college": "Srm University"
         },
         // If you only want one school details to display then remove the comma at the
@@ -197,10 +197,10 @@ var education = {
         {
             // Replace Aug, 1974 - Jun, 1978 within quotes with your school/college dates
             "date": "2006-2014",
-            // Replace Chemical Engineering and Applied Sciences within quotes with your
+            // High School within quotes with your
             // degree/major/class/grade
             "degree": "High School",
-            // Replace California Institute of Technology within quotes with your school/college
+            // Replace School within quotes with your school/college
             "college": "School"
         }
         // If you want to add more school details simply add a comma ',' after the
